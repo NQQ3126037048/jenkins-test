@@ -39,7 +39,6 @@ public class TestApp {
     public Docket createRestApi() {
         ParameterBuilder tokenPar = new ParameterBuilder();
         List<Parameter> pars = new ArrayList<>();
-        tokenPar.name("Authorization").description("token令牌:Bearer").defaultValue("Bearer ").modelRef(new ModelRef("string")).parameterType("header").required(false).build();
         pars.add(tokenPar.build());
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
@@ -53,7 +52,7 @@ public class TestApp {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("GZ LiWan System Mgt API")
+                .title("jenkins-test")
                 .version("1.0")
                 .build();
     }
