@@ -1,0 +1,7 @@
+com\nqq\maven\test\TestApp.class
+com\nqq\maven\test\service\TestService.class
+com\nqq\maven\test\service\impl\TestServiceImpl.class
+com\nqq\maven\test\service\impl\AsyncServiceImpl.class
+com\nqq\maven\test\service\AsyncTestService.class
+com\nqq\maven\test\controller\TestController.class
+com\nqq\maven\test\service\AsyncService.class
