@@ -28,7 +28,7 @@ public class TestController {
     }
     
     @GetMapping("/")
-    public String show(){
+    public String showRoot(){
         return "hello word - root";
     }
 
