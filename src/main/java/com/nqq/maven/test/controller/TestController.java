@@ -26,6 +26,11 @@ public class TestController {
     public String show(){
         return "hello word";
     }
+    
+    @GetMapping("/")
+    public String show(){
+        return "hello word - root";
+    }
 
     @GetMapping("/asyncTest")
     public String asyncTest(@RequestParam("loopVariable") Integer loopVariable) throws ExecutionException, InterruptedException {
